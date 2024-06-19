@@ -9,3 +9,8 @@ Version|Accuracy|Precision|Recall|F1 score|Improvements|Reason
 ## Future Improvements
 
 The current data argumentation method is a simple replication of the same data. We can add random noise to the replicates, which encourages the robustness of models. 
+
+## Dataset and Model
+
+Models: [Google Drive](https://drive.google.com/drive/folders/1DxGDkx2jUxWzBV1m0Y0hdDqEDl0OJWBU?usp=share_link) <br>
+Dataset: [SHREC 2021 Gesture Benchmark](https://www.google.com/search?client=safari&rls=en&q=shrec2021&ie=UTF-8&oe=UTF-8)
