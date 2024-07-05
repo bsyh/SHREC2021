@@ -6,9 +6,9 @@ Version|Accuracy|Precision|Recall|F1 score|Improvements|Reason
 |3|0.9370|0.9364|0.9424|0.9364|add `ReduceLROnPlateau` and `EarlyStopping`, tune hyperparameters|search highest accuracy of the model
 |4|0.9296|0.9291|0.9358|0.9295|reduce the number of neurons of inner layers, enable denoise()|`train loss` ≈ 100 * `valid loss`<br> the model may be too complex
 
-## Future Improvements
+## Report
 
-The current data argumentation method is a simple replication of the same data. We can add random noise to the replicates, which encourages the robustness of models. 
+Compared to the offline method, online recognition responds faster, while bringing 3 technical problems. See [Problem_Definition.pdf](Problem_Definition.pdf)
 
 ## Dataset and Model
 
